@@ -8,7 +8,8 @@ function Header(props){
     }=props;
 
     return(
-        <section>Kayce Heap
+        <section className="kayce"> 
+        <h1 className="kayce-heap">Kayce Heap</h1>
             <Nav currentSelection={currentSelection}
                  setCurrentSelection={setCurrentSelection}></Nav>
         </section>

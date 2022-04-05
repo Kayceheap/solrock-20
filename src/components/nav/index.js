@@ -10,13 +10,13 @@ function Nav(props) {
        <nav>
            <ul className='flex-row flex-end'>
                <li className= 'mx-2'>
-                   <button onClick={() => {setCurrentSelection('About')}}>About Me</button>
+                   <button className="button-1" onClick={() => {setCurrentSelection('About')}}>About Me</button>
                </li>
                <li className= 'mx-2'>
-                   <button onClick={() => {setCurrentSelection('Contact')}}>Contact Me</button>
+                   <button className="button-1" onClick={() => {setCurrentSelection('Contact')}}>Contact Me</button>
                </li>
                <li className= 'mx-2'>
-                   <button onClick={() => {setCurrentSelection('Work')}}>My Work</button>
+                   <button className="button-1" onClick={() => {setCurrentSelection('Work')}}>My Work</button>
                </li>
            </ul>
        </nav>

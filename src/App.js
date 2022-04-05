@@ -11,9 +11,9 @@ function App() {
     <>
       <Header currentSelection={currentSelection}
               setCurrentSelection={setCurrentSelection}></Header>
-      {currentSelection == 'About' && <About></About>}
-      {currentSelection == 'Contact' && <Contact></Contact>}
-      {currentSelection == 'Work' && <Work></Work>}
+      {currentSelection === 'About' && <About></About>}
+      {currentSelection === 'Contact' && <Contact></Contact>}
+      {currentSelection === 'Work' && <Work></Work>}
 
     </>
   );
