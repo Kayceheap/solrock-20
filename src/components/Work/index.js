@@ -5,19 +5,22 @@ function Work() {
     return(
         <div>
             <Project
+            projectUrl='https://kayceheap.github.io/run-buddy/'
             title='Run-Buddy'
             imgLocation='hero-bg.jpg'
-            githubUrl='run-buddy'
+            githubUrl='https://github.com/Kayceheap/run-buddy'
             ></Project>
             <Project
+            projectUrl='https://hottiehotton.github.io/CashingOutofTown/'
             title='Cashing Out Of Town'
             imgLocation='cashing.png'
-            githubUrl='hottiehotton.github.io/CashingOutofTown'
+            githubUrl='https://hottiehotton.github.io/CashingOutofTown'
             ></Project>
             <Project
+            projectUrl='https://my-movie-library-1.herokuapp.com/'
             title='My Movie Library'
             imgLocation='movie.jpg'
-            githubUrl='gitbhubUrl'
+            githubUrl='https://my-movie-library-1.herokuapp.com'
             ></Project>
         </div>
     )

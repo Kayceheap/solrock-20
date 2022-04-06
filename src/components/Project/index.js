@@ -4,12 +4,23 @@ function Project(props) {
     const {
         title,
         imgLocation,
-        githubUrl
+        githubUrl,
+        projectUrl
     } = props
+
+    const openProjectUrl=({projectUrl}) => {
+        console.log(projectUrl)
+        window.open(projectUrl,"_blank")
+    }
+
+    const openUrl=({githubUrl}) => {
+        console.log(githubUrl)
+        window.open(githubUrl,"_blank")
+    }
     return (
         <div className="my-work">
-            <p>{title}</p>
-            <img className="projectImg" src={require(`../../assets/${imgLocation}`)}></img>
+            <button className="project-title"  onClick={()=>openProjectUrl({projectUrl})}>{title}</button>
+            <img className="projectImg" onClick={()=>openUrl({githubUrl})} src={require(`../../assets/${imgLocation}`)}></img>
             <p>{githubUrl}</p>
         </div>
     )

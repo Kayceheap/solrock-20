@@ -79,7 +79,7 @@ body {
   height: 50px;
   width: 150px;
   font-family: cursive;
-  color: rgb(83, 52, 22);
+  color: black;
   font-weight: bolder;
   font-size: large;
   background-color: rgb(173, 154, 128);
@@ -95,11 +95,18 @@ body {
 }
 
 .my-work {
+  margin-top: 50px;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
   align-items: center;
   
+}
+
+.project-title {
+  font-family: cursive;
+  font-size: 30px;
+  font-weight: bold;
 }
 
 .projectImg {
@@ -120,4 +127,13 @@ body {
   font-size: larger;
   text-align: center;
   margin: 30px 40px 20px 40px;
+}
+
+input {
+  font-size: 1rem;
+  padding: 0.25rem;
+  border: 1px solid var(--dark);
+  outline: none;
+  border-radius: 3px;
+  transition: box-shadow 0.2s;
 }

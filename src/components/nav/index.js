@@ -16,7 +16,7 @@ function Nav(props) {
                    <button className="button-1" onClick={() => {setCurrentSelection('Contact')}}>Contact Me</button>
                </li>
                <li className= 'mx-2'>
-                   <button className="button-1" onClick={() => {setCurrentSelection('Work')}}>My Work</button>
+                   <button className="button-1" onClick={() => {setCurrentSelection('Work')}}>Portfolio</button>
                </li>
            </ul>
        </nav>
