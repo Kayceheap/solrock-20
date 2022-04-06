@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/solrock-20/static/css/main.5f364440.css",
-    "main.js": "/solrock-20/static/js/main.e1a940f3.js",
+    "main.js": "/solrock-20/static/js/main.a4f4dd1c.js",
     "static/js/787.a430c6a3.chunk.js": "/solrock-20/static/js/787.a430c6a3.chunk.js",
     "static/media/IMG_8226.png": "/solrock-20/static/media/IMG_8226.bd20054dac78506e9487.png",
     "static/media/hero-bg.jpg": "/solrock-20/static/media/hero-bg.000e1b5ff4f0b912c97f.jpg",
@@ -11,11 +11,11 @@
     "static/media/movie.jpg": "/solrock-20/static/media/movie.003ac98662122f5a5f29.jpg",
     "index.html": "/solrock-20/index.html",
     "main.5f364440.css.map": "/solrock-20/static/css/main.5f364440.css.map",
-    "main.e1a940f3.js.map": "/solrock-20/static/js/main.e1a940f3.js.map",
+    "main.a4f4dd1c.js.map": "/solrock-20/static/js/main.a4f4dd1c.js.map",
     "787.a430c6a3.chunk.js.map": "/solrock-20/static/js/787.a430c6a3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5f364440.css",
-    "static/js/main.e1a940f3.js"
+    "static/js/main.a4f4dd1c.js"
   ]
 }
