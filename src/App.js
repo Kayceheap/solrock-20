@@ -6,7 +6,7 @@ import Work from './components/Work';
 import Contact from './components/Contact';
 
 function App() {
-  const [currentSelection, setCurrentSelection] = useState()
+  const [currentSelection, setCurrentSelection] = useState('About')
   return (
     <>
       <Header currentSelection={currentSelection}
